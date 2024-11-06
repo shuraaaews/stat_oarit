@@ -1,0 +1,2 @@
+[console_scripts]
+stat_oarit = stat_oarit.__main__:main

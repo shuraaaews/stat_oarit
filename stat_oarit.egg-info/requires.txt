@@ -1,0 +1,5 @@
+Babel
+matplotlib
+pillow
+tkcalendar
+ttkwidgets
