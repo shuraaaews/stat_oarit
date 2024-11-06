@@ -1,0 +1,30 @@
+MANIFEST.in
+README.rst
+requirements.txt
+setup.py
+stat_oarit/__init__.py
+stat_oarit/__main__.py
+stat_oarit/application.py
+stat_oarit/employees.py
+stat_oarit/mainmenu.py
+stat_oarit/models.py
+stat_oarit/myWidgets.py
+stat_oarit/views.py
+stat_oarit.egg-info/PKG-INFO
+stat_oarit.egg-info/SOURCES.txt
+stat_oarit.egg-info/dependency_links.txt
+stat_oarit.egg-info/entry_points.txt
+stat_oarit.egg-info/requires.txt
+stat_oarit.egg-info/top_level.txt
+stat_oarit/Data/__init__.py
+stat_oarit/Data/employees.csv
+stat_oarit/Data/patients.csv
+stat_oarit/Data/schedule.csv
+stat_oarit/images/Doctor2.png
+stat_oarit/images/ID Card2.png
+stat_oarit/images/Medical Folder2.png
+stat_oarit/images/Symptom List2.png
+stat_oarit/images/__init__.py
+stat_oarit/images/arrow-resize-090.png
+stat_oarit/images/magnifier.png
+stat_oarit/images/stat_oarit_icon.png

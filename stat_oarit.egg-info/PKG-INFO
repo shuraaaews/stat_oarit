@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: stat-oarit
+Version: 1.0
+Summary: Data entry application for OARIT
+Author: Evsunin A.
+Requires-Python: >=3.6
+Requires-Dist: Babel
+Requires-Dist: matplotlib
+Requires-Dist: pillow
+Requires-Dist: tkcalendar
+Requires-Dist: ttkwidgets
