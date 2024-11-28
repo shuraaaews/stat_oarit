@@ -13,7 +13,6 @@ import locale
 from collections import namedtuple, defaultdict
 from collections import Counter
 import csv
-from pprint import pprint
 import matplotlib
 matplotlib.use('TkAgg')
 from matplotlib.figure import Figure

@@ -2,7 +2,7 @@ from pathlib import Path
 import sys
 
 if getattr(sys, 'frozen', False):
-    IMAGE_DIRECTORY = Path(sys.executable).parent / 'lib/stat_oarit/images'
+    IMAGE_DIRECTORY = Path(sys._MEIPASS) / 'stat_oarit' / 'images'
 else:
     IMAGE_DIRECTORY = Path(__file__).parent
 
