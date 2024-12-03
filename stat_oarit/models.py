@@ -62,17 +62,9 @@ class CSVModel:
         
         common_data, new_data = data
         if len(new_data) > 0:
-            # This is a new record
-            newfile = not self.file.exists()
-
             with open(self.file, 'a', encoding='cp1251', newline='') as fh:
                 csvwriter = csv.DictWriter(fh, fieldnames=self.fields.keys(),
                                                extrasaction='raise')
-                if newfile:
-                    csvwriter.writeheader()
-                    csvwriter.writerows(new_data)
-                else:
-                    csvwriter.writerows(new_data)
         else:
             with open(self.file, 'w', encoding='cp1251', newline='') as fh:
                 csvwriter = csv.DictWriter(fh, fieldnames=self.fields.keys(),

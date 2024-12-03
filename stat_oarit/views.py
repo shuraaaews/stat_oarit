@@ -1470,6 +1470,16 @@ class DataRecordForm(tk.Frame):
                 if v is None: v =''
                 self.autocomplet_dict.setdefault(k, set()).add(v)
 
+        for ob in self.autocomplet_combo_w_list:
+            label = getattr(ob, 'text_w')
+            if label:
+                self.autocomplet_dict.setdefault(label, set()).add(current_row[label])
+                auto_list = list(self.autocomplet_dict[label])
+                ob.set_completion_list(auto_list)
+
+
+
+
     # Get all widgets in frame
     def get_all_widgets(self, parent_widget):
         yield parent_widget
